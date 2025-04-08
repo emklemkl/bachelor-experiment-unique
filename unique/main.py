@@ -21,6 +21,7 @@
 # - sorted() or list.sort()
 # - Dictionary comprehensions
 # - You have 10 minutes
+# - Any kind of AI
 
 # Assumptions:
 # - All elements are non-negative integers (no floats or negative numbers).
@@ -31,12 +32,11 @@ example_list_1 = [9, 1, 4, 9, 5]
 example_list_2 = [4, 1, 7, 7, 2, 3]
 example_list_3 = [4]
 
-def unique_task(arr):  # type: (list) -> int
-    pass
+def unique_task(arr: list) -> int:
+    print(arr)
     #
     # Write your code...
     #
 
-
 if __name__ == "__main__":
-    print(unique_task(example_list_1))
+    unique_task(example_list_1)
